@@ -35,11 +35,12 @@
 
     font-size: $font-xsmall;
     color: $color-black;
+    font-family: $font-post;
   }
 
   &__list {
     @extend %no-list-style;
-
+    font-weight: 500;
     display: flex;
     align-items: center;
 

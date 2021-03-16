@@ -2,7 +2,7 @@
 // Base typography
 //---------------------------------------------- 
 body {
-  font-family: $font;
+  font-family: $font-post;
   line-height: $base-lineheight;
   color: $color-black;
   background-color: $color-white;
@@ -53,7 +53,7 @@ h4,
 h5,
 h6 {
   @extend %font-header;
-
+  font-family: $font-post;
   margin: {
     top: 0;
     bottom: 0;
@@ -63,7 +63,7 @@ h6 {
 //----------------------------------------------
 // H2 Theme
 //---------------------------------------------- 
-h2:not(.posts__text):not(.related__text) {
+h2 {
   $fontSize: 2em;
 
   font-family: $font-post;
