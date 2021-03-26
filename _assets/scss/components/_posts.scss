@@ -67,7 +67,7 @@
   &__link {
     display: block;
 
-    color: $color-black;
+    color: $color-white;
 
     &:hover {
       .posts__img {
@@ -89,7 +89,7 @@
 
   &__text {
     @extend %font-size;
-
+    font-family: $font-post;
     font-weight: 400;
   }
 
